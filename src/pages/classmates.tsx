@@ -7,7 +7,7 @@ import { useRef, useState, useEffect } from 'react';
 import { GoTriangleRight } from 'react-icons/go';
 import { FaSortAmountDown } from 'react-icons/fa';
 
-// User Proile Images Import
+// User Profile Images Import
 import defaultPfp from "@/../public/images/userIconx96.png";
 import dylan from "@/../public/images/dylan.png";
 
@@ -16,7 +16,7 @@ import FilterGroups from "@/components/classmates/FilterGroups";
 import UserCard from '@/components/classmates/UserCard';
 
 export default function Classmates() {
-    //////////////////////////////////////////////////////////////////////////////Start of Js Code
+    //////////////////////////////////////////////////////////////////////////////Start of JS Code
     //React Hooks:
     const [visibleIndicator, setVisibleIndicator] = useState(false);
     const indicatorRef = useRef(null);
@@ -40,7 +40,7 @@ export default function Classmates() {
 
 
 
-    //////////////////////////COMPONENTS INITIAL DATA
+    // COMPONENTS INITIAL DATA
     const dummyUserCardData = [
         {
         "2024": [
