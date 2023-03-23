@@ -56,7 +56,6 @@ export default function Team() {
 
                     {/* Front End Team */}
                     <div className="">
-                        
                         <p>Patrick Chi</p>
                         <p>Emir Durakovic</p>
                         <p>Albert Lee</p>
@@ -80,7 +79,6 @@ export default function Team() {
                     <iframe className="h-96 rounded-3xl m-4 shadow-lg" src="https://forms.gle/o9bmzkr5rjCiduLs5" title="Contact Form"></iframe>
                 </div>
             </div>
-            
         </>
     )
 }
